@@ -2,7 +2,7 @@ import sys
 import socket 
 
 
-SERVER_IP = "192.168.56.1"
+SERVER_IP = "Input Your IP"
 PORT = 4444
 
 s = socket.socket()
