@@ -2,11 +2,11 @@ import sys
 import socket 
 
 
-SERVER_IP = ""
+SERVER_IP = "192.168.56.1"
 PORT = 4444
 
 s = socket.socket()
-s.setsocket(socket.SOL_SOCKET,  socket.SO_REUSEADDR, 1 )
+s.setsockopt(socket.SOL_SOCKET,  socket.SO_REUSEADDR, 1 )
 s.bind((SERVER_IP, PORT))
 
 #Listen for an incoming connection 
