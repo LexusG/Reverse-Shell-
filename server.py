@@ -2,8 +2,9 @@ import sys
 import socket 
 
 
-SERVER_IP = "Input Your IP"
-PORT = 4444
+SERVER_IP = "  "  # Treat Actor IP address
+PORT = 50858
+
 
 s = socket.socket()
 s.setsockopt(socket.SOL_SOCKET,  socket.SO_REUSEADDR, 1 )

