@@ -5,15 +5,16 @@ This repository hosts a custom-developed Python-based reverse shell script. The 
 
 Key Features:
 
-- Reverse Shell Script: The core component is a Python script capable of establishing a reverse shell connection. This enables a user to execute commands on a remote 
+- Reverse Shell Script: The core component is a Python script capable of establishing a reverse shell connection. This enables a user to execute commands on a 
+  remote 
   machine and receive the output on their local system, simulating a shell session.
 
--Cross-Platform Compatibility: Designed with cross-platform usability in mind, ensuring functionality across different operating systems.
+- Cross-Platform Compatibility: Designed with cross-platform usability in mind, ensuring functionality across different operating systems.
 
--Executable Conversion: The Python script has been converted into a standalone executable file, facilitating ease of deployment and execution without the need for a 
- Python environment on the target system.
+- Executable Conversion: The Python script has been converted into a standalone executable file, facilitating ease of deployment and execution without the need for 
+  a Python environment on the target system.
 
--Security and Privacy: Emphasizes secure coding practices. However, users are advised to use this tool responsibly and ethically, adhering to legal guidelines and 
+- Security and Privacy: Emphasizes secure coding practices. However, users are advised to use this tool responsibly and ethically, adhering to legal guidelines and 
  privacy norms.
 
 Usage Scenarios:
