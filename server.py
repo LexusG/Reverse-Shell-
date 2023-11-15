@@ -3,7 +3,7 @@ import socket
 
 
 SERVER_IP = "  "  # Treat Actor IP address
-PORT = " " # Put an open port 
+PORT =            # Put an open port 
 
 
 s = socket.socket()
